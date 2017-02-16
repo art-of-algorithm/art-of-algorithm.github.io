@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Overpass:700,800,900|Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700,800,900" rel="stylesheet">
+    </head>
+
+    <body>
+      
+        <div class="container">
+            <div class="row title-img">
+                <div class="col s6 offset-s3 center">
+                    <div class="row center">
+                        <div class="the-art-of"><span class="josefin">t</span><span class="sacramento">he</span> <span class="josefin">a</span><span class="sacramento">rt</span> <span class="josefin">o</span><span class="sacramento">f</span></div>
+                        <div class="algo-text">Algorithm</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row description">
+                <div class="col s8 offset-s2">
+                   Notes on Analysis and Design
+                </div>
+            </div>
+
+        </div>
+        
+        <br>
+        
+        <hr class="main-hr">
+        
+        <div class="row center menu-row">
+            <div class="col s4">
+                <div class="title-menu">
+                    ARTICLES
+                </div>
+                <div class="desc-menu">Articles related to Algorithms and Design</div>
+            </div>
+            <div class="col s4">
+               <div class="title-menu">
+                    IMPLEMENTATION
+                </div>
+                <div class="desc-menu">Implementation in C++ and Python</div>           
+            </div>
+            <div class="col s4">
+                <div class="title-menu">
+                    LANGUAGES
+                </div>
+                <div class="desc-menu">Nuances of Languages</div>
+            </div>
+        </div>
+        
+        <hr class="main-hr">
+        
+        {{content}}
+    </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    
+</html>
+<style>
+    .title-img{
+        padding-top: 4em;
+    }
+    .description{
+        font-family: Roboto;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        text-indent: 0.4em;
+        font-size: 1em;
+    }
+    .lang{
+        font-family: "Roboto";
+        font-weight: 600;
+    }
+    .main-hr{
+        color: lightgray;
+        opacity: 0.5;
+    }
+    .menu-row .col{
+        border-right: 1px lightgrey solid;
+    }
+    .title-menu{
+        font-size: 1.5em;
+        font-weight: 800;
+        letter-spacing: 0.2em;
+        text-indent: 0.4em;
+    }
+    .algo-text{
+        font-family: Overpass;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
+    }
+    .the-art-of{
+        font-size: 4em;
+    }
+    .sacramento{
+        font-family: Sacramento;
+    }
+    .josefin{
+        font-family: "Josefin Sans";
+    }
+</style>
