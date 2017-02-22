@@ -1,6 +1,6 @@
 ---
 layout: page
-title: home
+title: Home
 order: 1
 permalink: /
 ---
