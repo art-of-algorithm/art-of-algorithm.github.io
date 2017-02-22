@@ -7,7 +7,6 @@
 
 # Site settings
 title: Algorithm
-email: hemangsk@gmail.com
 
 #write html inside the double quotes to display in jumbotron
 description: "Notes on Analysis and Design"
@@ -16,8 +15,7 @@ description: "Notes on Analysis and Design"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
 
 # Build settings
 markdown: kramdown
