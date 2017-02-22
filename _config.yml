@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Scientist
+title: Algorithm
 email: hemangsk@gmail.com
 
 #write html inside the double quotes to display in jumbotron
-description: "Short & Long. Right & Wrong"
+description: "Notes on Analysis and Design"
 
 
 
@@ -21,3 +21,5 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+highlighter: rouge
