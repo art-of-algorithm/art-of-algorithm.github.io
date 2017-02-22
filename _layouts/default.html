@@ -10,56 +10,51 @@
     </head>
 
     <body>
-      
+
         <div class="container">
             <div class="row title-img">
                 <div class="col s6 offset-s3 center">
                     <div class="row center">
                         <div class="the-art-of"><span class="josefin">t</span><span class="sacramento">he</span> <span class="josefin">a</span><span class="sacramento">rt</span> <span class="josefin">o</span><span class="sacramento">f</span></div>
-                        <div class="algo-text">Algorithm</div>
+                        <div class="main-title-text">{{ site.title }}</div>
                     </div>
                 </div>
             </div>
             <div class="row description">
                 <div class="col s8 offset-s2">
-                   Notes on Analysis and Design
+                   {{ site.description }}
                 </div>
             </div>
 
         </div>
-        
+
         <br>
-        
+
         <hr class="main-hr">
-        
+
         <div class="row center menu-row">
-            <div class="col s4">
-                <div class="title-menu">
-                    ARTICLES
-                </div>
-                <div class="desc-menu">Articles related to Algorithms and Design</div>
-            </div>
-            <div class="col s4">
-               <div class="title-menu">
-                    IMPLEMENTATION
-                </div>
-                <div class="desc-menu">Implementation in C++ and Python</div>           
-            </div>
-            <div class="col s4">
-                <div class="title-menu">
-                    LANGUAGES
-                </div>
-                <div class="desc-menu">Nuances of Languages</div>
-            </div>
+            {% assign sortedPages = site.pages | sort: 'order' %}
+            {% for p in sortedPages %}
+                {% if p.layout == "page" %}
+                    <div class="nav-div">
+                        <a href="{{p.permalink}}" >
+                            <div class="title-menu">
+                                <span class="title-menu-span">{{ p.title }}</span>
+                            </div>
+                        </a>
+                        <div class="desc-menu">{{ p.desc }}</div>
+                    </div>
+                {% endif %}
+            {% endfor %}
         </div>
-        
+
         <hr class="main-hr">
-        
+
         {{content}}
     </body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-    
+
 </html>
 <style>
     .title-img{
@@ -81,7 +76,11 @@
         color: lightgray;
         opacity: 0.5;
     }
-    .menu-row .col{
+    .menu-row{
+        display: flex;
+    }
+    .menu-row .nav-div{
+        flex: 1;
         border-right: 1px lightgrey solid;
     }
     .title-menu{
@@ -89,13 +88,28 @@
         font-weight: 800;
         letter-spacing: 0.2em;
         text-indent: 0.4em;
+        text-transform: uppercase;
+        color: black;
     }
-    .algo-text{
+    .title-menu-span{
+        border-bottom: 1px dotted black;
+        padding-bottom: 0.1em;
+    }
+    .title-menu:hover{
+        color: darkslategrey
+    }
+    .desc-menu{
+        margin-top: 0.5em;
+    }
+    .main-title-text{
         font-family: Overpass;
         text-transform: uppercase;
         font-weight: 900;
         font-size: 1.5em;
         letter-spacing: 0.2em;
+    }
+    .black{
+        color: black
     }
     .the-art-of{
         font-size: 4em;
@@ -105,5 +119,30 @@
     }
     .josefin{
         font-family: "Josefin Sans";
+    }
+    .in-progress{
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        text-indent:0.2em;
+        font-size: 1.2em;
+    }
+    .index-container{
+        margin-top: 3em;
+    }
+    .post-title-li .post-title{
+        color: black;
+        border-bottom: 1px dotted black;
+    }
+    .post-title-li .post-title:hover{
+        background: lightgrey;
+    }
+    .post-title-li{
+        padding-bottom: 0.5em;
+    }
+    .in-progress-div{
+        border-right: 1px lightgrey solid;
+    }
+    .complete-div{
+        text-align: right;
     }
 </style>

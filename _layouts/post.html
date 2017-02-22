@@ -2,4 +2,27 @@
 layout: default
 ---
 
-{{ content }}
+<div class="container post-container">
+    <div class="post-title">
+        {{ page.title }}
+    </div>
+    {{ content }}
+
+     <p class="right post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><em>{{ page.author }}</em></span></span>{% endif %}</p>
+
+</div>
+
+<style>
+    .post-container{
+        margin-top: 3em;
+    }
+    .post-title{
+        text-align: left;
+        font-size: 3em;
+        font-weight: 200;
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-weight: 200;
+    }
+
+</style>

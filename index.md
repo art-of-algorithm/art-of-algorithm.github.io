@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: page
+title: home
+order: 1
+permalink: /
 ---
 
 <div class="container index-container">
@@ -28,31 +31,3 @@ layout: default
         
     </div>
 </div>
-
-<style>
-    .in-progress{
-        font-weight: 800;
-        letter-spacing: 0.1em;
-        text-indent:0.2em;
-        font-size: 1.2em;
-    }
-    .index-container{
-        margin-top: 3em;
-    }
-    .post-title{
-        color: black;
-        border-bottom: 1px dotted black;
-    }
-    .post-title:hover{
-        background: lightgrey;
-    }
-    .post-title-li{
-        padding-bottom: 0.5em;
-    }
-    .in-progress-div{
-        border-right: 1px lightgrey solid;
-    }
-    .complete-div{
-        text-align: right;
-    }
-</style>
