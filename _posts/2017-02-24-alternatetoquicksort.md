@@ -26,16 +26,19 @@ arr=map(int,raw_input().split(' '))
 print quicksort(arr)
 ```
 
-
+Simple implementation of quick sort 2 
 ```python
-#simple implementation of quick sort 2 
-#uses python slice notation
+
+# Uses python slice notation
 def quicksort(arr): 
     if len(arr) <= 1:
             
             return arr
     else:
-          return quicksort([x for x in arr[1:] if x<arr[0]]) + [arr[0]] + quicksort([x for x in arr[1:] if x>=arr[0]])
+          return quicksort(
+          [x for x in arr[1:] if x<arr[0]]) + [arr[0]] 
+          + quicksort([x for x in arr[1:] if x>=arr[0]])
 arr=map(int,raw_input().split(' '))
 print quicksort(arr)
 ```
+
