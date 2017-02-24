@@ -6,6 +6,7 @@ author: "Rahul"
 ---
 
 Alternate implementation of quicksort but uses more memory
+
 ```python
 def quicksort(arr):
     less=[]
@@ -27,8 +28,8 @@ print quicksort(arr)
 ```
 
 Simple implementation of quick sort 2 
-```python
 
+```python
 # Uses python slice notation
 def quicksort(arr): 
     if len(arr) <= 1:
