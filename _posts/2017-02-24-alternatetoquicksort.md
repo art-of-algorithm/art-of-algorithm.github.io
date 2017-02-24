@@ -5,7 +5,8 @@ categories: implementation
 author: "Rahul"
 ---
 
-#alternate implementation of quicksort but uses more memory
+Alternate implementation of quicksort but uses more memory
+```python
 def quicksort(arr):
     less=[]
     equal=[]
@@ -23,9 +24,10 @@ def quicksort(arr):
     return arr
 arr=map(int,raw_input().split(' '))
 print quicksort(arr)
+```
 
 
-
+```python
 #simple implementation of quick sort 2 
 #uses python slice notation
 def quicksort(arr): 
@@ -36,4 +38,4 @@ def quicksort(arr):
           return quicksort([x for x in arr[1:] if x<arr[0]]) + [arr[0]] + quicksort([x for x in arr[1:] if x>=arr[0]])
 arr=map(int,raw_input().split(' '))
 print quicksort(arr)
-
+```
