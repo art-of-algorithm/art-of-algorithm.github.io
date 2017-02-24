@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Alternate Implementation of Quicksort"
+categories: implementation
+author: "Rahul"
+---
+
 #alternate implementation of quicksort but uses more memory
 def quicksort(arr):
     less=[]
