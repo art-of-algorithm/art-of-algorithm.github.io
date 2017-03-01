@@ -6,7 +6,6 @@ author: "Rahul"
 ---
 
 ```python
-
 def selectionsort(arr):
     
     for i in range(len(arr)):
@@ -28,5 +27,4 @@ for i in range(len(arr)):
     min_item=min(arr[i:])
     arr[i],arr[arr.index(min_item)]=arr[arr.index(min_item)],arr[i]
     print min_item
-
 ```
