@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bubble Sort"
-categories: implementation
+categories: implementation sorting
 author: "Hemang"
 ---
 

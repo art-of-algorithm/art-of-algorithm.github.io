@@ -2,7 +2,7 @@
 layout: post
 author: Hemang
 title: Stack with GetMin() in O(1)
-categories: implementation
+categories: implementation stack
 ---
 
 Stack in which you can access the minimum element in O(1) time complexity

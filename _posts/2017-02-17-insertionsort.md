@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Insertion Sort"
-categories: implementation
+categories: implementation sorting
 author: "Rahul"
 ---
 

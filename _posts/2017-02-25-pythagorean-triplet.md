@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pythagorean Triplet"
-categories: implementation
+categories: implementation mathematics
 author: "Rahul"
 ---
 

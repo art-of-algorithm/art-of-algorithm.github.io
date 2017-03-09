@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iterative inorder traversal"
-categories: implementation
+categories: implementation tree
 author: "Rahul"
 ---
 

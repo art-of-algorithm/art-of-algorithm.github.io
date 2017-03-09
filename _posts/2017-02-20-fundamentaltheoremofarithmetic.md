@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fundamental Theorem of Arithmetic"
-categories: implementation
+categories: implementation mathematics
 author: "Rahul"
 ---
 

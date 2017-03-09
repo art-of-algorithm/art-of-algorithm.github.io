@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quick Sort"
-categories: implementation
+categories: implementation sorting
 author: "Rahul"
 ---
 

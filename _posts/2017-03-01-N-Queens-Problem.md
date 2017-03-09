@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "N Queen Problem"
-categories: implementation
+categories: implementation mathematics
 author: "Rahul"
 ---
 This is a solution of https://www.hackerrank.com/contests/world-codesprint-9/challenges/queens-attack-2

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Binary Search"
-categories: implementation
+categories: implementation searching
 author: "Hemang"
 ---
 

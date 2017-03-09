@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Alternate Implementation of Quicksort"
-categories: implementation
+categories: implementation sorting
 author: "Rahul"
 ---
 

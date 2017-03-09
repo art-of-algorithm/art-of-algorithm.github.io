@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Merge Sort"
-categories: implementation
+categories: implementation sorting
 author: "Rahul"
 ---
 

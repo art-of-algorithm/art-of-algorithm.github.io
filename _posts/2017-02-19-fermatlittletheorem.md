@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fermat's Little Theorem"
-categories: implementation
+categories: implementation mathematics
 author: "Rahul"
 ---
 

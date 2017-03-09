@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tree Traversal"
-categories: implementation
+categories: implementation tree
 author: "Rahul"
 ---
 Trees can be traversed in different ways.

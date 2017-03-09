@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Level Order Traversal"
-categories: implementation
+categories: implementation tree
 author: "Rahul"
 ---
 

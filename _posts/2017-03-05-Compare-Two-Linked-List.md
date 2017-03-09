@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Compare Two Linked List"
-categories: implementation
+categories: implementation linked-lists
 author: "Rahul"
 ---
 

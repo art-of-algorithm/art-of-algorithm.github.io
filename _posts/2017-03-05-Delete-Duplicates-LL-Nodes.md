@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Delete duplicate-value nodes"
-categories: implementation
+categories: implementation linked-lists
 author: "Rahul"
 ---
 Delete duplicate-value nodes from a sorted linked list

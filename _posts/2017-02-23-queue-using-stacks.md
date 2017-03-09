@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Queue Using Two Stacks"
-categories: implementation
+categories: implementation queue
 author: "Hemang"
 ---
 

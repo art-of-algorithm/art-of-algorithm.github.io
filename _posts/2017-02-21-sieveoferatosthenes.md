@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sieve of Eratosthenes"
-categories: implementation
+categories: implementation mathematics
 author: "Rahul"
 ---
 

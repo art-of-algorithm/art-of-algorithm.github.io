@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Naive Pattern Searching"
-categories: implementation
+categories: implementation string
 author: "Rahul"
 ---
 Given a text txt[0..n-1] and a pattern pat[0..m-1], 
