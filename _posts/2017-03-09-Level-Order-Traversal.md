@@ -5,7 +5,7 @@ categories: implementation
 author: "Rahul"
 ---
 
-Function for insertion sort
+Python program for level order traversal
 
 ```python
  #Recursive Python program for level order traversal of Binary Tree
