@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Printing nodes at a distance k from the root of the tree"
+title:  "nodes at distance k from the root "
 categories: implementation tree
 author: "Rahul"
 ---
