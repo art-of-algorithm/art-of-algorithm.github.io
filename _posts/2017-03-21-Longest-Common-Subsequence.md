@@ -4,9 +4,8 @@ title:  "Longest Common Subsequence"
 categories: implementation string
 author: "Rahul"
 ---
-
-
-
+Given two sequences, find the length of longest subsequence present in both of them.
+A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous
 ```python
 # A Naive recursive Python implementation of LCS problem
  
