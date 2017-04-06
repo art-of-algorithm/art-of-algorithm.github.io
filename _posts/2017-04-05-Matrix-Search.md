@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Search in a Sorted Matrix "
-categories: implementation Matrix
+categories: implementation matrix
 author: "Rahul"
 ---
 
