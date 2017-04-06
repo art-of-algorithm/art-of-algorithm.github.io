@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sum of matrix"
+title:  "Sum of Division matrix"
 categories: implementation matrix
 author: "Rahul"
 ---
