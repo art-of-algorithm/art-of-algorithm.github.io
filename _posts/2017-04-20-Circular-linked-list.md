@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Circular Linked List"
-categories: implementation linked list
+categories: implementation linked-list
 author: "Rahul"
 ---
 
